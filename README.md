@@ -5,7 +5,7 @@
 [![Bài toán](https://img.shields.io/badge/B%C3%A0i%20to%C3%A1n-Video%20Moment%20Retrieval-green.svg)](#1-tổng-quan)
 
 ## 1. Tổng quan
-**CCTV-VMR-VN** là bộ dữ liệu chuẩn (benchmark dataset) được xây dựng chuyên biệt cho bài toán **Truy vấn khoảnh khắc video từ camera giám sát (Video Moment Retrieval - VMR)** và **Định vị hành động theo thời gian (Temporal Action Localization)** trong môi trường thực tế tại Việt Nam. 
+**CCTV-VMR-VN** là bộ dữ liệu chuẩn được xây dựng chuyên biệt cho bài toán **Truy vấn khoảnh khắc video từ camera giám sát (VMR)** và **Định vị hành động theo thời gian** trong môi trường thực tế tại Việt Nam. 
 
 Khác với các bộ dữ liệu video miền mở phổ biến (như ActivityNet hay Charades-STA), dữ liệu từ camera giám sát (CCTV) mang những đặc thù thách thức riêng như: góc quay rộng cố định, mật độ tương tác nhiều đối tượng dày đặc, biến thiên ánh sáng theo thời gian trong ngày và các câu truy vấn mô tả hành vi chi tiết. Bộ dữ liệu này hỗ trợ trực tiếp cho các nghiên cứu về **Căn chỉnh ngữ nghĩa đa cấp độ**, **Lọc nhiễu không gian theo vùng quan tâm (ROI)** và **Tinh chỉnh biên thời gian bằng Học tăng cường (RL)** (tiêu biểu là kiến trúc **CRAC**: *CLIP + ROI + Actor-Critic*).
 
